@@ -1,0 +1,38 @@
+language: php
+
+php:
+    - 5.4
+    - 5.5
+    - 5.6
+    - 7.0
+    - hhvm
+
+matrix:
+    fast_finish: true
+
+branches:
+    except:
+        - upstream
+
+install:
+    - composer install
+
+script: phpunit -c tests/phpunit.xml.dist --coverage-clover=coverage.clover
+
+after_script:
+    - wget https://scrutinizer-ci.com/ocular.phar
+    - php ocular.phar code-coverage:upload --format=php-clover coverage.clover
+
+notifications:
+    hipchat:
+        rooms:
+            secure: "bRRKwwnzJejZ399Ihu7eQKxfykEEKfXJ4OrHDQ//kPoXdDu0Cz2oBMq5v8NwHIc2OKt2G+HvIeVA2UqmZpdbgnvDbcKOV+L3ySeFPcTuNM8FF7tQSplZTG9EP2oqmMNLhpvrqp29iadNRlbZnp8jWc3ZIphJTnUzgzBeqjXPgV8="
+        template:
+            - >
+                Build <a href="%{build_url}">#%{build_number}</a>
+                (<a href="%{compare_url}">%{commit}</a>)
+                of <a href="https://github.com/%{repository}/tree/%{branch}">%{repository}@%{branch}</a>
+                by %{author}: %{message}
+        format: html
+    slack:
+        secure: "POBkaCa5GlK4Bykt/YVaGGn3PtyURBClGRaw6sUPp8fq/Z69h2f4uOyu735bdyacp3zElGqR01wp/5ayO7bvW+hdoSRrVpJsSXRL/OakrRKehBY0mAKtNULVmVmb18lUrVSpyWBRXme1ZSnGgiA+/6Szx2TZuFN9S7q2Qeq8gv4="

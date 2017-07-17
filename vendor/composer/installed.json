@@ -1,0 +1,451 @@
+[
+    {
+        "name": "composer/installers",
+        "version": "v1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/composer/installers.git",
+            "reference": "d78064c68299743e0161004f2de3a0204e33b804"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/composer/installers/zipball/d78064c68299743e0161004f2de3a0204e33b804",
+            "reference": "d78064c68299743e0161004f2de3a0204e33b804",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0"
+        },
+        "replace": {
+            "roundcube/plugin-installer": "*",
+            "shama/baton": "*"
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev",
+            "phpunit/phpunit": "4.1.*"
+        },
+        "time": "2016-08-13 20:53:52",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "Composer\\Installers\\Plugin",
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Composer\\Installers\\": "src/Composer/Installers"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kyle Robinson Young",
+                "email": "kyle@dontkry.com",
+                "homepage": "https://github.com/shama"
+            }
+        ],
+        "description": "A multi-framework Composer library installer",
+        "homepage": "https://composer.github.io/installers/",
+        "keywords": [
+            "Craft",
+            "Dolibarr",
+            "Hurad",
+            "ImageCMS",
+            "MODX Evo",
+            "Mautic",
+            "OXID",
+            "Plentymarkets",
+            "RadPHP",
+            "SMF",
+            "Thelia",
+            "WolfCMS",
+            "agl",
+            "aimeos",
+            "annotatecms",
+            "attogram",
+            "bitrix",
+            "cakephp",
+            "chef",
+            "cockpit",
+            "codeigniter",
+            "concrete5",
+            "croogo",
+            "dokuwiki",
+            "drupal",
+            "elgg",
+            "expressionengine",
+            "fuelphp",
+            "grav",
+            "installer",
+            "joomla",
+            "kohana",
+            "laravel",
+            "lithium",
+            "magento",
+            "mako",
+            "mediawiki",
+            "modulework",
+            "moodle",
+            "phpbb",
+            "piwik",
+            "ppi",
+            "puppet",
+            "reindex",
+            "roundcube",
+            "shopware",
+            "silverstripe",
+            "symfony",
+            "typo3",
+            "wordpress",
+            "yawik",
+            "zend",
+            "zikula"
+        ]
+    },
+    {
+        "name": "gridonic/princexml-php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/gridonic/PrinceXMLPhp.git",
+            "reference": "ebacd18a97dd5a6f8f75876e7a781d46d7b7d6fc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/gridonic/PrinceXMLPhp/zipball/ebacd18a97dd5a6f8f75876e7a781d46d7b7d6fc",
+            "reference": "ebacd18a97dd5a6f8f75876e7a781d46d7b7d6fc",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-09-06 17:46:32",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "PrinceXMLPhp": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Gridonic",
+                "homepage": "http://gridonic.ch"
+            },
+            {
+                "name": "Contributors",
+                "homepage": "https://github.com/gridonic/PrinceXMLPhp/contributors"
+            }
+        ],
+        "description": "PrinceXML PHP5 wrapper converted to follow the PSR-0 standard.",
+        "keywords": [
+            "princexml",
+            "xml"
+        ]
+    },
+    {
+        "name": "pressbooks/saxon-he",
+        "version": "9.6.0",
+        "version_normalized": "9.6.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pressbooks/saxon-he.git",
+            "reference": "bfa82b98023fac1b01f62c64a9b865a0e4b97dfd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pressbooks/saxon-he/zipball/bfa82b98023fac1b01f62c64a9b865a0e4b97dfd",
+            "reference": "bfa82b98023fac1b01f62c64a9b865a0e4b97dfd",
+            "shasum": ""
+        },
+        "time": "2016-09-12 18:32:26",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MPL-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Saxonica",
+                "email": "mike@saxonica.com"
+            }
+        ],
+        "description": "Provides implementations of XSLT 2.0, XQuery 3.1, and XPath 3.1 at the basic level of conformance defined by W3C."
+    },
+    {
+        "name": "pressbooks/custom-metadata",
+        "version": "0.8.1-dev",
+        "version_normalized": "0.8.1.0-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pressbooks/custom-metadata/",
+            "reference": "tags/v0.8.1-dev"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/pressbooks/custom-metadata/archive/v0.8.1-dev.zip",
+            "reference": "tags/v0.8.1-dev",
+            "shasum": null
+        },
+        "type": "library",
+        "installation-source": "source"
+    },
+    {
+        "name": "pressbooks/mce-table-buttons",
+        "version": "3.2.0",
+        "version_normalized": "3.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pressbooks/mce-table-buttons/",
+            "reference": "tags/v3.2.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/pressbooks/mce-table-buttons/archive/v3.2.0.zip",
+            "reference": "tags/v3.2.0",
+            "shasum": null
+        },
+        "type": "library",
+        "installation-source": "dist"
+    },
+    {
+        "name": "pressbooks/pressbooks-latex",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pressbooks/pressbooks-latex/",
+            "reference": "tags/v1.0.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/pressbooks/pressbooks-latex/archive/v1.0.0.zip",
+            "reference": "tags/v1.0.0",
+            "shasum": null
+        },
+        "type": "library",
+        "installation-source": "dist"
+    },
+    {
+        "name": "leafo/scssphp",
+        "version": "v0.6.6",
+        "version_normalized": "0.6.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/leafo/scssphp.git",
+            "reference": "6fdfe19d2b13a3f12ba0792227f0718809ce4e4d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/leafo/scssphp/zipball/6fdfe19d2b13a3f12ba0792227f0718809ce4e4d",
+            "reference": "6fdfe19d2b13a3f12ba0792227f0718809ce4e4d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "kherge/box": "~2.5",
+            "phpunit/phpunit": "~3.7",
+            "squizlabs/php_codesniffer": "~2.5"
+        },
+        "time": "2016-09-11 01:34:11",
+        "bin": [
+            "bin/pscss"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Leafo\\ScssPhp\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Leaf Corcoran",
+                "email": "leafot@gmail.com",
+                "homepage": "http://leafo.net"
+            }
+        ],
+        "description": "scssphp is a compiler for SCSS written in PHP.",
+        "homepage": "http://leafo.github.io/scssphp/",
+        "keywords": [
+            "css",
+            "less",
+            "sass",
+            "scss",
+            "stylesheet"
+        ]
+    },
+    {
+        "name": "pimple/pimple",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/silexphp/Pimple.git",
+            "reference": "44515c40a4c4effc53c1e6c0e7158f711473dc98"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/silexphp/Pimple/zipball/44515c40a4c4effc53c1e6c0e7158f711473dc98",
+            "reference": "44515c40a4c4effc53c1e6c0e7158f711473dc98",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-09-10 19:36:25",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Pimple": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            }
+        ],
+        "description": "Pimple, a simple Dependency Injection Container",
+        "homepage": "http://pimple.sensiolabs.org",
+        "keywords": [
+            "container",
+            "dependency injection"
+        ]
+    },
+    {
+        "name": "vanilla/htmlawed",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pressbooks/htmlawed.git",
+            "reference": "d85098979b7633b00460fec75e527842fa3a258e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pressbooks/htmlawed/zipball/d85098979b7633b00460fec75e527842fa3a258e",
+            "reference": "d85098979b7633b00460fec75e527842fa3a258e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "tburry/pquery": "~1.0.1"
+        },
+        "time": "2016-04-04 21:36:17",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "src/Htmlawed.php"
+            ]
+        },
+        "autoload-dev": {
+            "psr-4": {
+                "Htmlawed\\Test\\": "tests"
+            }
+        },
+        "license": [
+            "LGPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Todd Burry",
+                "email": "todd@vanillaforums.com"
+            }
+        ],
+        "description": "A composer wrapper for the htmLawed library to purify & filter HTML. Tested with PHPUnit and PhantomJS!",
+        "support": {
+            "source": "https://github.com/pressbooks/htmlawed/tree/v1.2-beta11"
+        }
+    },
+    {
+        "name": "pressbooks/disable-comments",
+        "version": "1.1",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pressbooks/disable-comments/",
+            "reference": "tags/v1.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/pressbooks/disable-comments/archive/v1.1.zip",
+            "reference": "tags/v1.1",
+            "shasum": null
+        },
+        "type": "library",
+        "installation-source": "dist"
+    },
+    {
+        "name": "wp-api/wp-api",
+        "version": "2.0-beta13.1",
+        "version_normalized": "2.0.0.0-beta13.1",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/WP-API/WP-API.git",
+            "reference": "739e7f5cb842dceb5cd06bed4ffd612aecf63387"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/WP-API/WP-API/zipball/739e7f5cb842dceb5cd06bed4ffd612aecf63387",
+            "reference": "739e7f5cb842dceb5cd06bed4ffd612aecf63387",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "require-dev": {
+            "squizlabs/php_codesniffer": "2.3.4",
+            "wp-coding-standards/wpcs": "0.6.0"
+        },
+        "time": "2016-05-25 12:24:10",
+        "type": "wordpress-plugin",
+        "extra": {
+            "installer-name": "json-rest-api"
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL2+"
+        ],
+        "authors": [
+            {
+                "name": "WP-API Team",
+                "homepage": "http://wp-api.org/"
+            }
+        ],
+        "description": "Access your WordPress site's data through an easy-to-use HTTP REST API.",
+        "homepage": "http://wp-api.org/"
+    }
+]
